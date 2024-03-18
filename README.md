@@ -61,15 +61,15 @@ Credit card customer data with 17,998 rows and 19 usable columns
 
 ![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/d9c81bd9-ca4f-4dc5-b390-0522da685998)
 
-![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/ba6e2ee6-c491-4c59-9ddc-fc7729fe8844)
+![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/d9c81bd9-ca4f-4dc5-b390-0522da685998)
 
 ### Feature Importance
 
-![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/8716f17c-292b-4523-9486-388cb25cce3c)
+![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/ba6e2ee6-c491-4c59-9ddc-fc7729fe8844)
 
 ## *Deployment*
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79f48742-cbd0-41f5-9b81-51c089f51705/Untitled.png)
+![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/8716f17c-292b-4523-9486-388cb25cce3c)
 
 - Dealing with fraud can be time and resource-consuming for the company, squandering profits.
 - Estimated model value will be around $3,000 per claim, combining cost & benefit matrix and confusion matrix

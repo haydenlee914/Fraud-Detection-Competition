@@ -25,7 +25,7 @@ Credit card customer data with 17,998 rows and 19 usable columns
 
 - The data is consist of fraud claims in 5 states; Virginia, Pennsylvania, Iowa, Arizona, and Colorado
 
-![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/a5b9df62-4834-4776-8818-d0c51e2af679)
+![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/b15dc7c6-52ac-4055-a4ef-5b63f983557b)
 
 - Most of the frauds occurred in local
 

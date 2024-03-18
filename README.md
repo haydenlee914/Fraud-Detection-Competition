@@ -1,6 +1,6 @@
 # Travelers Insurance Fraud Detection Competition (1st Place)
 
-![image source: Getty Image](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3d83aef5-3c28-44c2-be34-4f9c31516a28/Untitled.png)
+![image source: Getty Image](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/e049f3dd-01bb-4e09-b0e5-ca8396037db3)
 
 ## *Goal*
 
@@ -10,7 +10,7 @@ The massive size of the insurance industry means that there are more opportuniti
 
 ### Raw Data
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a947670e-dcdd-4e4d-8b67-d06c1465b655/Untitled.png)
+![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/0ffc6b86-e94c-41da-b88e-0dc39c6d32e7)
 
 Credit card customer data with 17,998 rows and 19 usable columns
 
@@ -21,23 +21,23 @@ Credit card customer data with 17,998 rows and 19 usable columns
 
 **Accident location**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b2fd3e26-b1ea-48f4-8c39-acb72ae1e5d9/Untitled.png)
+![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/236eed02-325f-4087-9b92-23b9c6041a39)
 
 - The data is consist of fraud claims in 5 states; Virginia, Pennsylvania, Iowa, Arizona, and Colorado
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6506b4d0-4af2-4476-811d-2a72e7544b66/Untitled.png)
+![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/a5b9df62-4834-4776-8818-d0c51e2af679)
 
 - Most of the frauds occurred in local
 
 **Histograms**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67a11d2d-c059-46b4-8ba6-c827992e1859/Untitled.png)
+![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/17bd063f-3bb1-4e7c-89a9-b6eff2689936)
 
 - Red-colored represents a higher number of fraud claims
 
 **Correlation Matrix**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b0825da0-0b69-480e-ae57-1a8677338ba3/Untitled.png)
+![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/87fbf16d-21a4-4046-9aff-10ffa4fc31d5)
 
 - None of variables have a strong relationship with the target variable (the last row)
 - Annual income and Age of driver are strongly correlated in a positive way
@@ -48,8 +48,8 @@ Credit card customer data with 17,998 rows and 19 usable columns
     - Since these two variables are strongly correlated, annual income is divided into the age of driver to get rid of multicollinearity.
 - Transformation
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32a33d2f-6504-41db-b42b-03a00a768bcf/Untitled.png)
-    
+    ![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/f816a148-602f-4e75-bbdb-0479bf7abfb0)
+  
     - We took log, square root, or cube root to some numerical variables to make sure they are distributed symmetrically
         - This is because we used some distance-based metric for error terms during some of the modeling processes
 
@@ -59,13 +59,13 @@ Credit card customer data with 17,998 rows and 19 usable columns
 - Using grid search and 3-fold cross-validation, we optimized each model to have the best AUC
 - CatBoost model showed the best generalization performance, which is 0.73 of AUC value.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/81f2a2fa-4c33-4ee0-a05c-9cb9858e7993/Untitled.png)
+![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/d9c81bd9-ca4f-4dc5-b390-0522da685998)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48848afb-1edf-46ff-b81d-9f6b4fb5d975/Untitled.png)
+![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/ba6e2ee6-c491-4c59-9ddc-fc7729fe8844)
 
 ### Feature Importance
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/88deb332-7866-4f0b-a6b1-c677a506c616/Untitled.png)
+![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/8716f17c-292b-4523-9486-388cb25cce3c)
 
 ## *Deployment*
 

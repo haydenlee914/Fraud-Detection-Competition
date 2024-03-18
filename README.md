@@ -31,7 +31,7 @@ Credit card customer data with 17,998 rows and 19 usable columns
 
 **Histograms**
 
-![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/17bd063f-3bb1-4e7c-89a9-b6eff2689936)
+![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/a5b9df62-4834-4776-8818-d0c51e2af679)
 
 - Red-colored represents a higher number of fraud claims
 
@@ -59,7 +59,7 @@ Credit card customer data with 17,998 rows and 19 usable columns
 - Using grid search and 3-fold cross-validation, we optimized each model to have the best AUC
 - CatBoost model showed the best generalization performance, which is 0.73 of AUC value.
 
-![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/d9c81bd9-ca4f-4dc5-b390-0522da685998)
+![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/3395f849-5701-49bd-8f5a-04b81c46eb2d)
 
 ![Untitled](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/d9c81bd9-ca4f-4dc5-b390-0522da685998)
 

@@ -1,4 +1,4 @@
-# Travelers Insurance Fraud Detection Competition (1st Place)
+# Travelers Insurance Fraud Detection Modeling
 
 ![image source: Getty Image](https://github.com/haydenlee914/Fraud-Detection-Competition/assets/140643142/e049f3dd-01bb-4e09-b0e5-ca8396037db3)
 
